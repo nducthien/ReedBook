@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_show_data_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="nen anh lui buoc ve sau de thay em ro hon"
+            android:textAlignment="textStart"
+            android:textColor="#100c09"
+            android:textSize="70px"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</LinearLayout>
